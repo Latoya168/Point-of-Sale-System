@@ -1,0 +1,107 @@
+Authors: 
+Latoya Williams & Kimmaria Stewart
+
+Date Created: 
+April 1,2025
+
+Course: 
+ITT103: Programming Techniques
+
+GitHub Public URL to Code:
+https://github.com/Latoya168/Point-of-Sale-System/blob/main/Willams.Stewart-POS_Program-ITT103-SP2025.py
+
+
+
+Program Overview: 
+
+This program is a simple Point of Sale(POS) system for "Best Buy Retail Store". It aloows users to view available products, add or remove items from a shopping cart, view the cart and proceed to checkout. The system calculate the total cost, applies discount for item that is $5000 and over
+and generates a receipt.
+
+
+How to Run the Program:
+
+1. Ensure pycharm is installed on your system.
+2. Save the the Python script as pos_system.py
+3.  Open a command prompt and navigate the script location
+4.  Run the script using python pos_system.py
+5.  Follow the on screen menu propmpt to interact with the POS system.
+
+
+Progam Funnctionalities 
+
+1. View Products: 
+•	Displays available products with their prices, stock levels, and stock status
+
+2. Add item to cart:
+ 
+•	Allows users to select an item and specify the quantity to add to the shopping cart.
+•	Updates stock levels accordingly.
+
+3. Remove Item from Cart:
+
+•	Enables users to remove a specified quantity of an item from their cart.
+
+4. View Cart:
+
+•	Displays all items in the cart, including quantity, unit price and total cost per item.
+
+5. Checkout:
+
+•	Calculates the total cost, applies a discount if applicable, and includes sales tax.
+
+
+6. Exit:
+ 
+•	Ends the program when the user chooses to exit.
+
+Required Modifications:
+	 
+i.	Improved Error Handling:
+
+•	The program should handle invalid inputs more efficiently to avoid crashes.
+
+
+ii.	GUI Implementation:
+
+•	The system could be enchanced with a graphical user interface for better inventory management.
+
+
+iii.	Database Integration: 
+
+•	Storing product data in a database enables better inventory management.
+
+
+iv.	Receipt Export:
+
+•	Adding a feature to export the receipt as a text or PDF file
+
+
+Assumptions and Limitations 
+	
+•	The program assumes that product names are entered exactly as displayed (case-sensitive).
+
+•	The discount is applied only if the subtotal exceeds $ 5000
+
+•	Sales tax is fixed at 10%
+
+•	Payment must be made in full before checkout is completed.
+
+•	The system does not support user authentication or multiple users 
+
+
+Conclusion:
+
+This POS system provides a basic yet functional solution for managing sales transaction in a retail store. While it is fully operational, there are several areas for potential improvement and expansion.
+
+
+
+
+
+
+
+
+
+
+
+
+
